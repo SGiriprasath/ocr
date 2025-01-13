@@ -18,9 +18,9 @@ import logging
 app = Flask(__name__)
 
 # Configure AWS credentials
-os.environ['AWS_ACCESS_KEY_ID'] = ''
-os.environ['AWS_SECRET_ACCESS_KEY'] = ''
-os.environ['AWS_REGION'] = ''
+os.environ['AWS_ACCESS_KEY_ID'] = 'AKIAYQYUA6YJFC3KI35T'
+os.environ['AWS_SECRET_ACCESS_KEY'] = '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'
+os.environ['AWS_REGION'] = 'eu-north-1'
 aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
 aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
 region_name = os.getenv('AWS_REGION')
