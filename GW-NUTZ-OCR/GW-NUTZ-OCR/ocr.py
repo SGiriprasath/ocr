@@ -1,5 +1,4 @@
 import os
-import os
 import sqlite3
 import boto3
 import cv2
